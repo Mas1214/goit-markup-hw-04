@@ -534,6 +534,7 @@ img {
 }
 
 /**--------portfolio-------*/
+/**--------bttn--------*/
 
 .section-portfolio {
   padding: 96px 0 120px 0;
@@ -568,6 +569,9 @@ img {
   background-color: var(--color-ocean);
   border: 1px solid transparent;
 }
+
+/**-----------bttn----------**/
+/**-----------content---------**/
 
 .portfolio-img-list {
   display: flex;
