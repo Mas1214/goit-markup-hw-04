@@ -309,11 +309,10 @@ img {
 /**-------section three-------*/
 
 .section-three {
+  background-color: var(--color-cloud);
   padding: 120px 0;
-  height: 732px;
   text-align: center;
   text-transform: capitalize;
-  background-color: var(--color-cloud);
 }
 
 .section-three-title {
@@ -334,11 +333,13 @@ img {
 .section-three-item {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: var(--color-white);
 }
 
 .container-team {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .section-three-name {
@@ -355,6 +356,42 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin-bottom: 8px;
+}
+
+.team-icon-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.team-icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-icon {
+  fill: var(--color-cloud);
+}
+
+.team-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--color-iris);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: var(--color-ocean);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /**------footer------*/
