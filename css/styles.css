@@ -409,6 +409,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--color-grey);
+  margin-bottom: 72px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -444,8 +445,8 @@ img {
 
 .customers-icon-link:hover,
 .customers-icon-link:focus {
-  color: var(--iris-color);
-  border-color: var(--iris-color);
+  color: var(--color-ocean);
+  border-color: var(--color-ocean);
 }
 
 /**------footer------*/
